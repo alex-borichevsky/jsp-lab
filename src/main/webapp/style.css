@@ -1,0 +1,19 @@
+.three { /* Внешний вид кнопки */
+    color: #524E49; /* Цвет текста в кнопке */
+    background: #fdeaa8; /* Фоновый цвет */
+    padding: 10px; /* Отступ текста от границ - определяет размер кнопки */
+    font-size: 20px; /* Размер текста */
+    border-radius: 5px; /* Закругление уголков */
+    box-shadow: 0px 1px 3px; /* Тень */
+}
+/* Меняем внешний вид при наведении */
+.three:hover { /* Добавляем псевдокласс :hover */
+    background: rgba(0,0,0,0);/* Меняем фоновый цвет */
+    color: #3a7999; /* Меняем цвет текста */
+    box-shadow: inset 0 0 0 3px #3a7999; /* Меняем тень */
+}
+h1,h2 {
+    font-size: 100%;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    color: #333366;
+}
